@@ -5,5 +5,5 @@ def position_taken?(array, index)
   } else {
     return true
   }
-  
+
 end
