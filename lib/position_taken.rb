@@ -1,9 +1,10 @@
 # code your #position_taken? method here!
-def position_taken?(array, index)
-if(array[index] == "" || array[index] == " ") {
+def position_taken?(board, index)
+if(board[index] == "" || board[index] == " ") {
 
 return false
 } else {
   return true
 }
+end
 end
